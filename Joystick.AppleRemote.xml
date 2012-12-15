@@ -91,8 +91,8 @@
     <joystick name="AppleRemote">
       <button id="1">BigStepForward</button>
       <button id="2">BigStepBack</button>
-      <button id="3">StepBack</button>
-      <button id="4">StepForward</button>
+      <button id="3">Rewind</button>
+      <button id="4">FastForward</button>
       <button id="5">Pause</button>
       <button id="6">Stop</button>
       <button id="7">OSD</button>
@@ -111,12 +111,20 @@
       <!-- FlickDown  -->      <button id="88">BigStepBack</button>
     </joystick>
   </FullscreenVideo>
+  <FullscreenLiveTV>
+    <joystick name="AppleRemote">
+      <button id="1">ChannelUp</button>
+      <button id="2">ChannelDown</button>
+      <!-- pageup --> <button id="13">ChannelUp</button>
+      <!-- pagedown --> <button id="14">ChannelDown</button>
+    </joystick>
+  </FullscreenLiveTV>
   <Visualisation>
     <joystick name="AppleRemote">
-      <button id="1">VolumeUp</button>
-      <button id="2">VolumeDown</button>
-      <button id="3">SkipPrevious</button>
-      <button id="4">SkipNext</button>
+      <button id="1">SkipNext</button>
+      <button id="2">SkipPrevious</button>
+      <button id="3">Rewind</button>
+      <button id="4">FastForward</button>
       <button id="5">Pause</button>
       <button id="6">Fullscreen</button>
       <button id="7">XBMC.ActivateWindow(MusicOSD)</button>
